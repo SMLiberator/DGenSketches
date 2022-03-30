@@ -27,18 +27,18 @@ let tiebHurt;
 function preload()
 {
 	// player ship assets
-	crowSpr = loadImage('https://openprocessing-usercontent.s3.amazonaws.com/files/user316293/visual1528931/h483a62aa4e53a8e3d5595fb719d86df4/crow.png');
-	crowFire = loadSound('https://openprocessing-usercontent.s3.amazonaws.com/files/user316293/visual1528931/h483a62aa4e53a8e3d5595fb719d86df4/crow-fire.mp3');
-	crowExpl = loadSound('https://openprocessing-usercontent.s3.amazonaws.com/files/user316293/visual1528931/h483a62aa4e53a8e3d5595fb719d86df4/crow-expl.mp3');
-	crowHurt = loadSound('https://openprocessing-usercontent.s3.amazonaws.com/files/user316293/visual1528931/h483a62aa4e53a8e3d5595fb719d86df4/crow-hurt.mp3');
+	crowSpr = loadImage('assets/crow.png');
+	crowFire = loadSound('assets/crow-fire.mp3');
+	crowExpl = loadSound('assets/crow-expl.mp3');
+	crowHurt = loadSound('assets/crow-hurt.mp3');
 	
 	// enemy ship assets
-	tiebSpr = loadImage('https://openprocessing-usercontent.s3.amazonaws.com/files/user316293/visual1528931/h483a62aa4e53a8e3d5595fb719d86df4/tieb.png');
-	tieiSpr = loadImage('https://openprocessing-usercontent.s3.amazonaws.com/files/user316293/visual1528931/h483a62aa4e53a8e3d5595fb719d86df4/tiei.png');
-	tiefSpr = loadImage('https://openprocessing-usercontent.s3.amazonaws.com/files/user316293/visual1528931/h483a62aa4e53a8e3d5595fb719d86df4/tief.png');
-	tiebFire = loadSound('https://openprocessing-usercontent.s3.amazonaws.com/files/user316293/visual1528931/h483a62aa4e53a8e3d5595fb719d86df4/tieb-fire.mp3');
-	tiebExpl = loadSound('https://openprocessing-usercontent.s3.amazonaws.com/files/user316293/visual1528931/h483a62aa4e53a8e3d5595fb719d86df4/tieb-expl.mp3');
-	tiebHurt = loadSound('https://openprocessing-usercontent.s3.amazonaws.com/files/user316293/visual1528931/h483a62aa4e53a8e3d5595fb719d86df4/tieb-hurt.mp3');
+	tiebSpr = loadImage('assets/tieb.png');
+	tieiSpr = loadImage('assets/tiei.png');
+	tiefSpr = loadImage('assets/tief.png');
+	tiebFire = loadSound('assets/tieb-fire.mp3');
+	tiebExpl = loadSound('assets/tieb-expl.mp3');
+	tiebHurt = loadSound('assets/tieb-hurt.mp3');
 	
 	// prevent too many sounds from playing at once
 	crowFire.playMode('restart');
